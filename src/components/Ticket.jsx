@@ -8,7 +8,7 @@ function Ticket(props){
     fontSize: '24px'
   };
   var myOtherStyle = {
-    fontSize: '100px'
+    fontSize: '15px'
   };
   return (
     <div style={myStyle}>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Header(){
   var myStyle = {
@@ -7,7 +8,10 @@ function Header(){
     fontSize: '36px'
   };
   return (
-    <h1 style={myStyle}>Help Queue</h1>
+    <div>
+      <h1 style={myStyle}>Help Queue</h1>
+      <Link to='/'>Home</Link> | <Link to="/newticket">Create Ticket</Link>
+    </div>
   );
 }
 
